@@ -741,6 +741,7 @@ config DYNAMIC_SCS
 
 config LTO
 	bool
+	default y
 	help
 	  Selected if the kernel will be built using the compiler's LTO feature.
 
