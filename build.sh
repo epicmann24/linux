@@ -1,6 +1,6 @@
 #make menuconfig
 
-make -j$(nproc)
+make -j$(nproc) CFLAGS="-march=native"
 
 sudo make modules_install
 
